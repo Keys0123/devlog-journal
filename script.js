@@ -60,5 +60,12 @@ function loadEntries() {
     });
   });
 }
+// Delete an entry
+function deleteEntry(index) {
+  const entries = JSON.parse(localStorage.getItem('devlog_entries')) || [];
+  entries.splice(index, 1);
+  localStorage.setItem('devlog_entries', JSON.stringify(entries));
+  loadEntries();
+}
 
 

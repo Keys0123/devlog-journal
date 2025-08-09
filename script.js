@@ -41,13 +41,30 @@ function loadEntries() {
     return;
   }
 
-  entries.forEach(entry => {
+  entries.forEach((entry, index) => {
     const div = document.createElement('div');
     div.classList.add('entry');
     div.innerHTML = `
       <div class="entry-meta">${entry.date} • ${entry.time}</div>
       <div class="entry-text">${entry.text}</div>
+      <button class="delete-btn" data-index="${index}">Delete</button>
     `;
     entriesList.appendChild(div);
   });
+
+  // Attach delete event listeners
+  document.querySelectorAll('.delete-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const index = e.target.getAttribute('data-index');
+      deleteEntry(index);
+    });
+  });
+}
+
+// Delete an entry
+function deleteEntry(index) {
+  const entries = JSON.parse(localStorage.getItem('devlog_entries')) || [];
+  entries.splice(index, 1);
+  localStorage.setItem('devlog_entries', JSON.stringify(entries));
+  loadEntries();
 }

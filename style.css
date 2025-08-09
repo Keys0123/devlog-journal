@@ -81,3 +81,18 @@ button:hover {
   font-size: 16px;
   white-space: pre-wrap;
 }
+.delete-btn {
+  background-color: #B71C1C;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #D32F2F;
+}
+

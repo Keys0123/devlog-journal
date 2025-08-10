@@ -90,9 +90,4 @@ button:hover {
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-}
-
-.delete-btn:hover {
-  background-color: #D32F2F;
-}
 

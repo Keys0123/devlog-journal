@@ -67,5 +67,20 @@ function deleteEntry(index) {
   localStorage.setItem('devlog_entries', JSON.stringify(entries));
   loadEntries();
 }
+document.getElementById("log-form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  const entry = document.getElementById("log-entry").value;
+  if (entry.trim() !== "") {
+    // Save in list
+    const li = document.createElement("li");
+    li.textContent = entry;
+    document.getElementById("log-list").appendChild(li);
+
+    // Clear text box
+    document.getElementById("log-entry").value = "";
+  }
+});
+
 
 

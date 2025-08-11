@@ -95,4 +95,17 @@ button:hover {
 .delete-btn:hover {
   background-color: #D32F2F;
 }
+#log-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#log-list li {
+  background: #00494d;
+  color: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
 

@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Utility to get saved array
   const getSaved = () => {
     try {
       return JSON.parse(localStorage.getItem('devLogs') || '[]');
@@ -18,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Render saved entries
   function render() {
     const saved = getSaved();
     logList.innerHTML = '';
@@ -30,16 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    saved.forEach((text, index) => {
+    saved.forEach((entry, index) => {
       const li = document.createElement('li');
       li.className = 'devlog-item';
 
       const span = document.createElement('span');
       span.className = 'devlog-text';
-      span.textContent = text;
+      span.textContent = `${entry.text}  —  (${entry.date})`;
       li.appendChild(span);
 
-      // delete button
       const del = document.createElement('button');
       del.className = 'delete-btn';
       del.textContent = 'Delete';
@@ -55,18 +52,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Load on start
   render();
 
-  // Submit handler
   logForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const text = logEntry.value.trim();
     if (!text) return;
 
+    const now = new Date();
+    const dateString = now.toLocaleString(); // shows date + time
+
     const arr = getSaved();
-    arr.unshift(text); // newest first
+    arr.unshift({ text: text, date: dateString }); // store object
     localStorage.setItem('devLogs', JSON.stringify(arr));
+
     logEntry.value = '';
     render();
   });

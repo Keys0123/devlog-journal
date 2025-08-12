@@ -109,3 +109,11 @@ button:hover {
   border-radius: 5px;
 }
 
+#log-list { list-style: none; padding: 0; margin-top: 15px; }
+.devlog-item {
+  background: #00494d; color: #fff; padding: 10px; margin-bottom: 8px; border-radius: 6px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.devlog-text { white-space: pre-wrap; margin-right: 12px; flex: 1; }
+.delete-btn { background: #b71c1c; color: #fff; border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; }
+.delete-btn:hover { background: #d32f2f; }

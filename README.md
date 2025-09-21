@@ -5,4 +5,3 @@ its not working bro fkkkkkkk
 - 025-08-11: Day 5 — This will let you enter logs and instantly see them stack up below.
 jendp
 vehdjf
-hdhdhf

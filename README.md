@@ -2,4 +2,4 @@
 
 its not working bro fkkkkkkk
 - 2025-08-09: Day 4 — kept the streak going 🚀
-08-11: Day 5 — This  let you enter logs and  see them stack up below.
+08-11: Day 5 — This  let you enter logs and  .

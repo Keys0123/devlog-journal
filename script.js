@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const logList = document.getElementById('log-list');
   const logForm = document.getElementById('log-form');
-  const logEntry = document.getElementById('log-entry');
+
 
   if (!logList || !logForm || !logEntry) {
     console.error('DevLog: missing element(s). Check that IDs are: log-form, log-entry, log-list');

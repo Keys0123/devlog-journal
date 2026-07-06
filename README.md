@@ -12,7 +12,6 @@ be csnnd
 vsvchf
 vsjccr
 
- gshchd
 
 
 bncc

@@ -10,7 +10,7 @@ nbcb
 
 bcnnb
 
-bbbcgh
+
 bbcghb
 bbcc
 bdjvgrbdbv

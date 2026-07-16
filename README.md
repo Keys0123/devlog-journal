@@ -11,7 +11,7 @@ nbcb
 bcnnb
 
 
-bbcghb
+
 bbcc
 bdjvgrbdbv
 

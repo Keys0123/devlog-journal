@@ -10,7 +10,7 @@ bendbvfvfdg
 gsvchf
 lugdg
 hdcvf
-bdbgbd
+
 nbcgh
 bavbbd
 ndvbnbsvcvd

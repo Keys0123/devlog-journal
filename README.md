@@ -12,9 +12,9 @@ lugdg
 hdcvf
 
 nbcgh
-bavbbd
+bavbb
 ndvbnbsvcvd
-bdfcd
+
 bffbb
 hvdvnf
 hcgnn

@@ -10,7 +10,7 @@ nbvnn
 
 bscgbr
 nbvbfbbvf
-lnd cbd
+lnd 
 bdchneb v
 becnnf
 hdvbbd

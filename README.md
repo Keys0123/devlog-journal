@@ -11,7 +11,8 @@ bvsgbe
 bscgbr
 nbvbfbbvf
  ccgh
-lnd 
+
+
 bdchneb v
 l
 hdvbbd

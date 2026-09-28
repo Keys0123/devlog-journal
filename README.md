@@ -16,7 +16,6 @@ nbvbfbbvf
 jsvvndbvdvv
  gscbn
 bcgnb
-vxgb
 bdchneb v
 l
 ccbn

@@ -10,7 +10,7 @@ sv vxn
 hec d
 l 
 l dvbf
-gsvd
+
 bebmmt
 gkkbc
 

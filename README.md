@@ -12,8 +12,7 @@ brbbbt
 gffhh
 brbbt
 hdbnnf
-bbb
-tbbbt
+b
 bdbbf
 
 hdbbbr

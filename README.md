@@ -9,8 +9,7 @@ nnvv
 lfufyfu
 
 levvbd
-bs vbs
- 
+bs 
 vscbbd
 ldv nd
 shbdv

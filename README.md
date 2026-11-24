@@ -11,7 +11,7 @@ bdbv
 bsvvbd
 db b d
 dnrvcbd
-levvbd
+
 ndvvvf
 snvvbd
 vscbbd

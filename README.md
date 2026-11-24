@@ -13,7 +13,7 @@ db b d
 dnrvcbd
 
 ndvvvf
-snvvbd
+
 vscbbd
 ldv nd
 shbdv

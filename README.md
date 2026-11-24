@@ -12,7 +12,7 @@ bsvvbd
 db b d
 dnrvcbd
 
-ndvvvf
+
 
 vscbbd
 ldv nd
